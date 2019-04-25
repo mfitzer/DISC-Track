@@ -1,4 +1,4 @@
-# disc_track
+# DISC_TRACK
 
 Attempting to make an NFC reading application
 
