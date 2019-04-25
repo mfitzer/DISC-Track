@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_nfc_reader/flutter_nfc_reader.dart';
 import 'package:geolocator/geolocator.dart';
 
+//keeping things fresh
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
