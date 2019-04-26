@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha4] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\6f4ef95247b2478fde56a0486647283e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d048183de2ad906306084991a0310f29\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b8b6600cc32782dfdd7d6167be4f0db5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\365fe610cc4aeeda9282257bf938093b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\3525d1031c511433800968aed8651ff0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b1f3c7d7df37bbed7b9087ae7cb214a5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\f798cd95f33ca8c6dcb017ab5faaf656\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\4ee5d0029f4ac0caf625173b010b8450\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b00dc3655f0bc8ca236e9c2b1e863ddc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e3c13a4c79dca66d42cded81c050831c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c92fc928a39d1a48b6dde4e395d487d8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bb5dd9f20dd2b8cec4df59a4289b008\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\14b70b082c792b36841829d660b14ef2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\abe855e66fa660615dfa2580e2dc103c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\dc641ae3bf77560860904584e9634422\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha06] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\5ec6b7f9c9148ab1a5d69b6c195c2086\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\cd4e592ed11b9e461856a7ae6ee7ee97\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\0c903bda7f7c700915ed702c3f127cf9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\1ff14e037172210f12c0713519a96d1c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\a07f28cb0dd789cd52901f7e23561524\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bd77ce43c1a5a14fabf876d5fbddc29\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\ba4bf4825df36cd9ba4dc852ae07ab17\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d18cab8f3a84d6cf8d98678e2427a72d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e505664d1b90b2986066a8651a5e5fc7\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e3c8056529af76331b12cf2e67eb7316\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c6e6fee478523103ded9cec053607279\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\71d99f8b2e28ba81c46b510510c07642\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\5f8dbd29eddd67a46adf8669dcdbebd1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\91a73903c35ff5cdf9b73eb6114c52c3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c7332c7751219e13288e265b96389739\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\efa60a711283c38adc7468fb0982e68a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\27d24521644686d4e3f6b051905584e8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e64dda1f66cd0aa273cd5ff69754c2f8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\8635d3db360298b8a8c6a0ffc762bde2\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:5:5-62
+	android:name
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:5:22-59
+uses-feature#android.hardware.NFC
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:6:5-57
+	android:name
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:6:19-54
+application
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha4] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\6f4ef95247b2478fde56a0486647283e\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha4] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\6f4ef95247b2478fde56a0486647283e\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d048183de2ad906306084991a0310f29\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d048183de2ad906306084991a0310f29\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bd77ce43c1a5a14fabf876d5fbddc29\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bd77ce43c1a5a14fabf876d5fbddc29\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e505664d1b90b2986066a8651a5e5fc7\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e505664d1b90b2986066a8651a5e5fc7\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bd77ce43c1a5a14fabf876d5fbddc29\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.nfc.MainActivity
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha4] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\6f4ef95247b2478fde56a0486647283e\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha4] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\6f4ef95247b2478fde56a0486647283e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d048183de2ad906306084991a0310f29\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d048183de2ad906306084991a0310f29\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b8b6600cc32782dfdd7d6167be4f0db5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b8b6600cc32782dfdd7d6167be4f0db5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\365fe610cc4aeeda9282257bf938093b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\365fe610cc4aeeda9282257bf938093b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\3525d1031c511433800968aed8651ff0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\3525d1031c511433800968aed8651ff0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b1f3c7d7df37bbed7b9087ae7cb214a5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b1f3c7d7df37bbed7b9087ae7cb214a5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\f798cd95f33ca8c6dcb017ab5faaf656\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\f798cd95f33ca8c6dcb017ab5faaf656\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\4ee5d0029f4ac0caf625173b010b8450\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\4ee5d0029f4ac0caf625173b010b8450\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b00dc3655f0bc8ca236e9c2b1e863ddc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\b00dc3655f0bc8ca236e9c2b1e863ddc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e3c13a4c79dca66d42cded81c050831c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e3c13a4c79dca66d42cded81c050831c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c92fc928a39d1a48b6dde4e395d487d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c92fc928a39d1a48b6dde4e395d487d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bb5dd9f20dd2b8cec4df59a4289b008\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bb5dd9f20dd2b8cec4df59a4289b008\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\14b70b082c792b36841829d660b14ef2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\14b70b082c792b36841829d660b14ef2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\abe855e66fa660615dfa2580e2dc103c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\abe855e66fa660615dfa2580e2dc103c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\dc641ae3bf77560860904584e9634422\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\dc641ae3bf77560860904584e9634422\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\5ec6b7f9c9148ab1a5d69b6c195c2086\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\5ec6b7f9c9148ab1a5d69b6c195c2086\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\cd4e592ed11b9e461856a7ae6ee7ee97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\cd4e592ed11b9e461856a7ae6ee7ee97\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\0c903bda7f7c700915ed702c3f127cf9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\0c903bda7f7c700915ed702c3f127cf9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\1ff14e037172210f12c0713519a96d1c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\1ff14e037172210f12c0713519a96d1c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\a07f28cb0dd789cd52901f7e23561524\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\a07f28cb0dd789cd52901f7e23561524\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bd77ce43c1a5a14fabf876d5fbddc29\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\2bd77ce43c1a5a14fabf876d5fbddc29\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\ba4bf4825df36cd9ba4dc852ae07ab17\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\ba4bf4825df36cd9ba4dc852ae07ab17\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d18cab8f3a84d6cf8d98678e2427a72d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\d18cab8f3a84d6cf8d98678e2427a72d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e505664d1b90b2986066a8651a5e5fc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e505664d1b90b2986066a8651a5e5fc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e3c8056529af76331b12cf2e67eb7316\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e3c8056529af76331b12cf2e67eb7316\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c6e6fee478523103ded9cec053607279\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c6e6fee478523103ded9cec053607279\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\71d99f8b2e28ba81c46b510510c07642\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\71d99f8b2e28ba81c46b510510c07642\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\5f8dbd29eddd67a46adf8669dcdbebd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\5f8dbd29eddd67a46adf8669dcdbebd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\91a73903c35ff5cdf9b73eb6114c52c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\91a73903c35ff5cdf9b73eb6114c52c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c7332c7751219e13288e265b96389739\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\c7332c7751219e13288e265b96389739\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\efa60a711283c38adc7468fb0982e68a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\efa60a711283c38adc7468fb0982e68a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\27d24521644686d4e3f6b051905584e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\27d24521644686d4e3f6b051905584e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e64dda1f66cd0aa273cd5ff69754c2f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\e64dda1f66cd0aa273cd5ff69754c2f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\8635d3db360298b8a8c6a0ffc762bde2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] C:\Users\ckopp\.gradle\caches\transforms-2\files-2.1\8635d3db360298b8a8c6a0ffc762bde2\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ckopp\Documents\docs\1-repos\DISC-Track\nfc\app\src\main\AndroidManifest.xml
