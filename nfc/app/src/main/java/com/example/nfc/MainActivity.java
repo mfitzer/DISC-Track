@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView = (TextView) findViewById(R.id.text);
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
-        throwTracker = ThrowTracker.instance();
+        throwTracker = ThrowTracker.instance(this);
 
         if (nfcAdapter == null) {
             Toast.makeText(this, "No NFC", Toast.LENGTH_LONG).show();
@@ -167,6 +167,11 @@ public class MainActivity extends AppCompatActivity {
 
         //Display throw count
         discInfoBuilder.append("\n").append("Throws: ").append(throwTracker.getThrowCount());
+        float lastThrowDistance = throwTracker.getLastThrowDistance();
+        if (lastThrowDistance > 0f)
+        {
+            discInfoBuilder.append("\n").append("Last Throw Distance: ").append(lastThrowDistance);
+        }
 
         updateTextView(discInfoBuilder.toString());
     }
