@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private NfcAdapter nfcAdapter;
     private PendingIntent pendingIntent;
     private TextView textView;
+    private ThrowTracker throwTracker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView = (TextView) findViewById(R.id.text);
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
+        throwTracker = ThrowTracker.instance();
 
         if (nfcAdapter == null) {
             Toast.makeText(this, "No NFC", Toast.LENGTH_LONG).show();
@@ -91,16 +93,94 @@ public class MainActivity extends AppCompatActivity {
                 msgs = new NdefMessage[] {msg};
             }
 
-            displayMessages(msgs);
+            /**
+             * Use ID to pull disc data
+             * - call GEO location to take in first point of throw
+             *      or if previous throw, add it to list of points and do math and stuff idk dude
+             *
+             * - check if in game (which can just be a flag)
+             *      if in game, do throw counting and stuff
+             *      if not, do Disc Identification
+             *
+             *      Final things to show:
+             *      = contact info
+             *      = # of throws
+             *      = distance of last throw
+             *
+             *      Marty Disc ID: 1234567890
+             *      Caleb Disc ID: 0987654321
+             */
+            //displayMessages(msgs);
 
+            String msgsString = getNdefString(msgs);
+            //updateTextView(msgsString);
+
+            displayDiscInfo(msgsString);
         }
     }
 
-    private void displayMessages(NdefMessage[] msgs) {
-        if (msgs == null || msgs.length == 0) {
-            return;
+    private enum Owner { Unknown, Marty, Caleb }
+
+    private void displayDiscInfo(String discIDMsg)
+    {
+        String martyDiscID = "1234567890";
+        String martyDiscInfo = "Owner: Marty Fitzer" + "\n" + "Phone Number: 202-555-0123";
+
+        String calebDiscID = "0987654321";
+        String calebDiscInfo = "Owner: Caleb Kopp" + "\n" + "Phone Number: 202-555-0150";
+
+        StringBuilder discInfoBuilder = new StringBuilder();
+        Owner owner;
+
+        //Determine owner
+        if (discIDMsg.contains(martyDiscID))
+        {
+            owner = Owner.Marty;
+        }
+        else if (discIDMsg.contains(calebDiscID))
+        {
+            owner = Owner.Caleb;
+        }
+        else
+        {
+            owner = Owner.Unknown;
         }
 
+        //Set disc info text
+        switch (owner)
+        {
+            case Unknown:
+                discInfoBuilder.append("Disc owner could not be identified.");
+                break;
+            case Marty:
+                discInfoBuilder.append(martyDiscInfo);
+                throwTracker.recordThrowPosition();
+                break;
+            case Caleb:
+                discInfoBuilder.append(calebDiscInfo);
+                throwTracker.recordThrowPosition();
+                break;
+            default:
+                discInfoBuilder.append("Disc owner could not be identified.");
+                break;
+        }
+
+        //Display throw count
+        discInfoBuilder.append("\n").append("Throws: ").append(throwTracker.getThrowCount());
+
+        updateTextView(discInfoBuilder.toString());
+    }
+
+    private void updateTextView(String text)
+    {
+        textView.setText(text);
+    }
+
+    private String getNdefString(NdefMessage[] msgs)
+    {
+        if (msgs == null || msgs.length == 0) {
+            return "";
+        }
 
         StringBuilder builder = new StringBuilder();
         List<ParsedNdefRecord> records = NdefMessageParser.parse(msgs[0]);
@@ -113,8 +193,7 @@ public class MainActivity extends AppCompatActivity {
             builder.append(str).append("\n");
         }
 
-
-        textView.setText(builder.toString());
+        return builder.toString();
     }
 
     @Override
