@@ -2,9 +2,10 @@ package com.example.nfc;
 
 import android.content.Context;
 import android.location.Location;
+import android.widget.Toast;
 
 public class Throw {
-    private enum ThrowState { Idle, Started, Ended }
+    public enum ThrowState { Idle, Started, Ended }
     private ThrowState throwState;
 
     private Location startPos;
@@ -12,7 +13,7 @@ public class Throw {
 
     private Context context;
 
-    private float distance = 0f;
+    private float distance = -1f;
 
     public Throw(Context context)
     {
@@ -35,10 +36,17 @@ public class Throw {
         }
     }
 
+    public boolean isStarted()
+    {
+        return throwState.equals(ThrowState.Started);
+    }
+
     public boolean isDone()
     {
         return throwState.equals(ThrowState.Ended);
     }
+
+    public ThrowState getThrowState() { return throwState; }
 
     //Get start GPS position
     public Location getStartPosition()
@@ -60,22 +68,33 @@ public class Throw {
     //Set start GPS position
     private void setStartPosition()
     {
-        Location startPos = GPSLocationManager.instance(context).getLocation();
+        startPos = GPSLocationManager.instance(context).getLocation();
     }
 
     //Set end GPS position
     private void setEndPosition()
     {
-        Location endPos = GPSLocationManager.instance(context).getLocation();
+        endPos = GPSLocationManager.instance(context).getLocation();
         calculateThrowDistance();
     }
 
     private void calculateThrowDistance()
     {
-        if (startPos != null && endPos != null)
+        if (startPos != null)
         {
-            float meterDistance = startPos.distanceTo(endPos);
-            distance = meterDistance * 3.28084f; //Distance in feet, 1 m == 3.28084 ft
+            if (endPos != null)
+            {
+                float meterDistance = startPos.distanceTo(endPos);
+                distance = meterDistance * 3.28084f; //Distance in feet, 1 m == 3.28084 ft
+            }
+            else
+            {
+                Toast.makeText(context, "End position could not be set, could not calculate distance.", Toast.LENGTH_LONG).show();
+            }
+        }
+        else
+        {
+            Toast.makeText(context, "Start position was not set, could not calculate distance.", Toast.LENGTH_LONG).show();
         }
     }
 }

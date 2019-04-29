@@ -2,6 +2,8 @@ package com.example.nfc;
 
 import android.content.Context;
 
+import com.example.nfc.Throw.ThrowState;
+
 import java.util.LinkedList;
 
 public class ThrowTracker {
@@ -25,6 +27,7 @@ public class ThrowTracker {
         this.context = context;
         this.throwList = new LinkedList<Throw>();
         this.currentThrow = new Throw(context);
+        GPSLocationManager.instance(context);
     }
 
     public void recordThrowPosition()
@@ -45,14 +48,23 @@ public class ThrowTracker {
 
     public float getLastThrowDistance()
     {
-        int throwCount = throwList.size();
-        if (throwCount > 0)
+        if (throwList.size() > 0)
         {
             return throwList.peekLast().getDistance();
         }
         else
         {
-            return 0f;
+            return -1f;
         }
+    }
+
+    public ThrowState getThrowState()
+    {
+        if (currentThrow != null)
+        {
+            return currentThrow.getThrowState();
+        }
+
+        return null;
     }
 }

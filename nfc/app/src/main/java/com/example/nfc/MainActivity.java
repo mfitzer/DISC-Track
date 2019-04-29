@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.nfc.Throw.ThrowState;
 import com.example.nfc.parser.NdefMessageParser;
 import com.example.nfc.record.ParsedNdefRecord;
 
@@ -168,10 +169,21 @@ public class MainActivity extends AppCompatActivity {
         //Display throw count
         discInfoBuilder.append("\n").append("Throws: ").append(throwTracker.getThrowCount());
         float lastThrowDistance = throwTracker.getLastThrowDistance();
-        if (lastThrowDistance > 0f)
-        {
-            discInfoBuilder.append("\n").append("Last Throw Distance: ").append(lastThrowDistance);
+
+        ThrowState throwState = throwTracker.getThrowState();
+        if (throwState.equals(ThrowState.Started)){
+            discInfoBuilder.append("\n").append("Throw started");
         }
+        else if (throwState.equals(ThrowState.Idle))
+        {
+            if (lastThrowDistance >= 0f)
+            {
+                discInfoBuilder.append("\n").append("Throw Distance: ").append(lastThrowDistance).append(" ft");
+            }
+            discInfoBuilder.append("\n").append("Scan to start next throw.");
+        }
+
+
 
         updateTextView(discInfoBuilder.toString());
     }
