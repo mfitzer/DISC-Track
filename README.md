@@ -28,6 +28,7 @@
 </ol>
 <h2 id="notes">Notes:</h2>
 <ul>
+<li>Demonstration video: <a href="https://drive.google.com/open?id=1hbIse-XaX6NmcbnlkxurWGclpNyoEfc5">link</a></li>
 <li>Will not work on emulated android device</li>
 <li>Will not work on device without both GPS and NFC
 <ul>
