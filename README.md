@@ -4,6 +4,7 @@
 ---
 
 <h1 id="disc_track">DISC_TRACK</h1>
+<h2 id="demonstration-video-google-drive">Demonstration video: <a href="https://drive.google.com/open?id=1hbIse-XaX6NmcbnlkxurWGclpNyoEfc5">Google Drive</a></h2>
 <h3 id="technologies-used">Technologies Used:</h3>
 <ul>
 <li><a href="https://developer.android.com/studio">Android Studio</a></li>
@@ -28,7 +29,6 @@
 </ol>
 <h2 id="notes">Notes:</h2>
 <ul>
-<li>Demonstration video: <a href="https://drive.google.com/open?id=1hbIse-XaX6NmcbnlkxurWGclpNyoEfc5">link</a></li>
 <li>Will not work on emulated android device</li>
 <li>Will not work on device without both GPS and NFC
 <ul>
