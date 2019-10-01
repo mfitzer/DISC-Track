@@ -4,7 +4,8 @@
 ---
 
 <h1 id="disc_track">DISC_TRACK</h1>
-<h2 id="demonstration-video-google-drive">Demonstration video: <a href="https://drive.google.com/open?id=1hbIse-XaX6NmcbnlkxurWGclpNyoEfc5">Google Drive</a></h2>
+<h2 id="demonstration-video-google-drive"><a href="https://drive.google.com/open?id=1hbIse-XaX6NmcbnlkxurWGclpNyoEfc5">Demonstration Video</a></h2>
+<h2 id="SRS"><a href="https://drive.google.com/open?id=1e6LLCa9G8dRsAmut0DbkqT91A0ISiYRMFCBIaiC3Acs">Software Requirements Specification</a></h2>
 <h3 id="technologies-used">Technologies Used:</h3>
 <ul>
 <li><a href="https://developer.android.com/studio">Android Studio</a></li>
